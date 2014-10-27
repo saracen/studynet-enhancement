@@ -10,7 +10,7 @@ A collection of browser userscripts to improve the University of Hertfordshire's
 Installation
 ------------
 
-### Firefox installation
+### Firefox
 
 1. [Install Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
 2. Navigate to the [studynet.user.js script](https://saracen.github.io/studynet-enhancement/studynet.user.js)
@@ -22,7 +22,7 @@ Installation
 2. Navigate to the [studynet.user.js script](https://saracen.github.io/studynet-enhancement/studynet.user.js)
 3. Install when prompted
 
-### Chrome (Native) Installation
+### Chrome (Native, without extension)
 
 1. Download (right click, save as) the [studynet.user.js script](https://saracen.github.io/studynet-enhancement/studynet.user.js)
 2. Open Chrome extensions (chrome://extensions/)

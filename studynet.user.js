@@ -1,6 +1,9 @@
 // ==UserScript==
+// @name        StudyNet Enhancement
+// @version     0.1
 // @description StudyNet Enhancement userscripts
-// @match http://www.studynet2.herts.ac.uk/*
+// @match       http://www.studynet2.herts.ac.uk/*
+// @auther      Arran Walker (github@fiveturns.org)
 // ==/UserScript==
 
 function bootstrap() {

@@ -25,4 +25,6 @@ if (typeof jQuery == 'undefined') {
 	js.src = 'https://code.jquery.com/jquery-latest.min.js';
 	js.addEventListener('load', bootstrap);
 	document.getElementsByTagName("head")[0].appendChild(js);
+} else {
+	bootstrap();
 }

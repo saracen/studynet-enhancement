@@ -137,6 +137,9 @@ tr:first-child > th {
 	background: #efefef;
 	color: #111;
 }
+.resources .resource {
+	display: none;
+}
 
 /* Form questions */
 .correct,

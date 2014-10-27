@@ -1,0 +1,189 @@
+body {
+	margin: 10px 0 10px;
+
+	color: #505050;
+
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0 0 5px;
+	color: #111;
+}
+h3 {
+	font-weight: 300;
+}
+
+main {
+	margin-left: 20%;
+	padding-bottom: 100%;
+}
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 20%;
+
+	background: #222;
+	color: #fff;
+
+	font-size: 12px;
+	overflow-y: auto;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul ul {
+	display: none;
+}
+nav ul ul li {
+	padding-left: 10px;
+}
+nav li {
+	padding: 5px 0 5px 5px;
+	background: #444;
+}
+nav a {
+	display: block;
+	padding: 2px;
+
+	color: #fff;
+	text-decoration: none;
+}
+nav .active > a {
+	color: black;
+	background: white;
+}
+nav ul .active ul {
+	display: block;
+}
+
+table {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+td, th {
+	padding: 8px;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+td p, th p {
+	/* For some reason there's paragraph tags in every table field. We'll assume they're not supposed to be there. */
+	margin: 0;
+}
+tr:nth-child(even) > td,
+tr:nth-child(even) > th {
+	background-color: #f9f9f9;
+}
+tr:hover > td,
+tr:hover > th {
+	background-color: #f5f5f5;
+}
+tr:first-child > td {
+	border-top: 0;
+}
+tr:first-child > th {
+	border-top: 0;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+}
+
+.unit {
+	margin: 0 0 40px 40px;
+	padding: 40px;
+
+	box-shadow: 0 2px 6px rgba(0,0,0,.1);
+	background: #f5f5f5;
+}
+
+.unit:first-child {
+	margin-top: 40px;
+	border: 1px solid #F9B755;
+	border-right: 0;
+	box-shadow: 0 2px 6px rgba(251,206,125, 1);
+	background: #FAE5BF;
+}
+
+.session {
+	padding: 40px;
+	margin: 0 0 20px;
+
+	border: 1px solid #d4d4d4;
+	box-shadow: 0 2px 6px rgba(0,0,0,.2);
+	background: #fff;
+}
+
+#btn-single {
+	position: absolute;
+	padding: 5px;
+	right: 0;
+	top: 0;
+
+	border-radius: 0 0 0 10px;
+	background: #efefef;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.resources {
+	margin: 5px;
+	padding: 5px;
+
+	background: #efefef;
+	color: #111;
+}
+
+/* Form questions */
+.correct,
+.incorrect {
+	font-weight: bold;
+}
+label.correct {
+	color: #5cb85c;
+}
+label.incorrect {
+	color: #d9534f;
+}
+label.warning {
+	color: #8a6d3b;
+}
+select.correct {
+	color: #5cb85c;
+	border: 1px solid #5cb85c;
+}
+select.incorrect {
+	color: #d9534f;
+	border: 1px solid #d9534f;
+}
+
+/* overrides to normal template */
+.task {
+	padding: 15px;
+	margin-bottom: 10px;
+
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	background-color: #FFFFEC;
+}
+input[type='button'] {
+	padding: 5px;
+
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	cursor: pointer;
+}
+.solution {
+	display: none;
+	margin-top: 10px;
+	padding: 10px;
+
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}

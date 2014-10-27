@@ -1,0 +1,1 @@
+StudyNetEnhancement.script('https://saracen.github.io/studynet-enhancement/microsite-single-document-viewer.js');

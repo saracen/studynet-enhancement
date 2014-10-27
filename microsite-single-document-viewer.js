@@ -225,14 +225,14 @@ if (document.getElementById('root') && document.getElementsByClassName('ModuleOv
 		window.location.reload();
 	};
 
-	var button = document.createElement('button');
-	button.innerText = 'Enter single document view';
-	button.id = 'btn-single';
-	button.addEventListener('click', toggle);
-	document.body.appendChild(button);
+	var button = $('<button id="btn-single">')
+		.click(toggle)
+		.text('Enter single document view');
+
+	$('body').append(button);
 
 	if (localStorage.getItem('microsite-single-document-viewer') === 'enabled') {
-		button.innerText = 'Exit single document view';
+		button.text('Exit single document view');
 		StudyNetEnhancement.Converter();
 	}
 }

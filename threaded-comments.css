@@ -1,0 +1,75 @@
+/* Override studynet css defaults */
+.discussread {
+	margin: 0;
+}
+.discussread .postnumber,
+.discussread .smallcol .avatar,
+.discussread .description,
+.discussread h4.alternaterow {
+	display: none;
+}
+.discussread .smallcol {
+	padding: 0;
+	margin: 0;
+	width: auto;
+	float: none;
+
+	margin-left: -10px;
+	padding-left: 8px;
+	min-height: 20px;
+	border-left: 2px solid #888;
+}
+.discussread .smallcol p {
+	display: inline;
+	color: #888;
+	text-transform: lowercase;
+}
+.discussread .ivcard {
+	padding: 0;
+	background: none;
+}
+.discussread .discussmainbody {
+	padding: 0;
+	width: auto;
+	border: 0;
+	line-height: 16px;
+}
+.discussread .discussmainbody p {
+	margin: 0 0 5px;
+}
+.discussread br {
+	line-height: 10px;
+}
+.discussread .discussmainbody .rht {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 12px;
+	text-align: left;
+}
+.discussread .rht .button {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	text-shadow: 0;
+	background: none;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+
+	margin-right: 5px;
+	color: #888;
+	font-weight: bold;
+	text-transform: lowercase;
+}
+.discussread.box {
+	border: 0;
+	border-left: 1px solid #eee;
+	padding-left: 10px;
+}
+.child-posts {
+	margin-left: 10px;
+}
+.tutormessage, .tutor_message {
+	font-weight: normal;
+}

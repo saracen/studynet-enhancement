@@ -1,1 +1,2 @@
 StudyNetEnhancement.script('https://saracen.github.io/studynet-enhancement/microsite-single-document-viewer.js');
+StudyNetEnhancement.script('https://saracen.github.io/studynet-enhancement/threaded-comments.js');
